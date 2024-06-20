@@ -1,7 +1,11 @@
 import React from 'react';
+import NavBar from '../Dashboard/NavBar';
+import Footer from '../Dashboard/Footer';
 
 const ProfileDetail = () => {
   return (
+   <>
+   <NavBar/>
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="bg-white rounded-lg shadow-lg overflow-hidden w-80">
         <div className="bg-green-500 text-white text-center p-6">
@@ -26,6 +30,8 @@ const ProfileDetail = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+   </>
   );
 };
 
